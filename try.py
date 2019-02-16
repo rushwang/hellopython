@@ -10,6 +10,6 @@
 
 # 关机之后 重启 发现git 错误 报错如下：
 # git commit -m "try again"的时候，出现 git push   打印 please tell me who you are
-#这时候需要正确配置 git config --global user.email "wangzhuilang@hellowang" 
-#和 git config --global user.name "wangzhuilang" 否则失败慧， 这从wangzhuilang@hellowang mingw64 /c/githello(master)猜出来的
-#git config  --global 设置错误会出现如下错误 git could not lock config file permission denie
+#这时候需要正确配置 git config  user.email "wangzhuilang@hellowang" 
+#和 git config  user.name "wangzhuilang" 否则失败慧， 这从wangzhuilang@hellowang mingw64 /c/githello(master)猜出来的
+#git config   设置错误会出现如下错误 git could not lock config file permission denie
