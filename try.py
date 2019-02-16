@@ -13,3 +13,10 @@
 #这时候需要正确配置 git config  user.email "wangzhuilang@hellowang" 
 #和 git config  user.name "wangzhuilang" 否则失败慧， 这从wangzhuilang@hellowang mingw64 /c/githello(master)猜出来的
 #git config   设置错误会出现如下错误 git could not lock config file permission denie
+# 新项目
+# git init
+#git add README.md
+#git commit -m "first commit" 这里有时候会出现 “please tell me who you are”,这时候git config user.email “rushwang@qq”
+# git config user.name “rushwang” 再git commit -m “first commit 就好了”
+#git remote add origin https://github.com/rushwang/newgittry.git
+#git push -u origin master
